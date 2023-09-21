@@ -24,19 +24,22 @@ public class L4E2 {
         if (isCorrect1) {
             System.out.println("Q1. What is the capital of Spain? Correct");
         } else {
-            System.out.println("Q1. What is the capital of Spain? Incorrect. The correct answer is Madrid.");
+            System.out.println("Q1. What is the capital of Spain? Sorry, The correct answer is Madrid.");
         }
 
         if (isCorrect2) {
             System.out.println("Q2. What is the capital of France? Correct");
         } else {
-            System.out.println("Q2. What is the capital of France? Incorrect. The correct answer is Paris.");
+            System.out.println("Q2. What is the capital of France? Sorry, The correct answer is Paris.");
         }
 
         if (isCorrect3) {
             System.out.println("Q3. What is the capital of Japan? Correct");
         } else {
-            System.out.println("Q3. What is the capital of Japan? Incorrect. The correct answer is Tokyo.");
+            System.out.println("Q3. What is the capital of Japan? Sorry, The correct answer is Tokyo.");
+        }
+        if (!isCorrect1 && !isCorrect2 && !isCorrect3){
+            System.out.println("Try again");
         }
         scanner.close();
     }

@@ -18,6 +18,8 @@ public class Hangman {
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
+            scanner.nextLine();
+
 
             switch (choice) {
                 case 1 -> playGame(scanner);

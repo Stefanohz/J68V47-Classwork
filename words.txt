@@ -1,0 +1,10 @@
+algorithm
+java
+computer
+syntax
+variable
+framework
+database
+loop
+coding
+function
